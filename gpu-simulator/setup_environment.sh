@@ -36,7 +36,7 @@ else
 fi
 
 if [ ! -d "$ACCELSIM_ROOT/gpgpu-sim" ] ; then
-    git clone https://github.com/PSAL-POSTECH/gpgpu-sim_HMS.git $ACCELSIM_ROOT/gpgpu-sim
+    git clone git@gitlab.com:JianpingZeng/gpgpu-sim2.git $ACCELSIM_ROOT/gpgpu-sim
     cd $ACCELSIM_ROOT/gpgpu-sim
     cd $ACCELSIM_ROOT
 fi

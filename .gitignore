@@ -5,3 +5,4 @@ sim_run_*
 *.DS_Store*
 .vim/
 .cache/
+gpgpu-sim
